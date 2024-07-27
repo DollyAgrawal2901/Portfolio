@@ -22,7 +22,7 @@ export default function WhatIDO() {
           <div className="w-32 h-1 bg-slate-600"></div>
         </div>
       <p className="text-lg p-4">At present, I'm pursuing my final year of B-Tech in Silver Oak
-          uNiversity. I am proficient in react components, hooks, props, portals
+          University. I am proficient in react components, hooks, props, portals
           and router. I have basic Understanding of Java and Python. I am open
           to more opportunities and eager to learn more.</p>
     </div>
