@@ -1,3 +1,4 @@
+import Education from "./Education";
 import Navbar from "./Navbar";
 import WhatIDO from "./WhatIDO";
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
      <Navbar />
      <WhatIDO />
+     <Education />
     </>
    );
 }

@@ -16,7 +16,7 @@ export default function WhatIDO() {
       </div> */}
 
 <div className="flex justify-center items-center mt-16 ">
-    <div className="bg-slate-400 text-black text-center p-8 rounded-lg shadow-2xl mb-9 w-3/5">
+    <div className="bg-slate-400 text-black text-center p-8 rounded-lg shadow-2xl mb-9 w-8/12">
       <h2 className="text-3xl font-bold mb-2">What I do</h2>
       <div className="flex justify-center">
           <div className="w-32 h-1 bg-slate-600"></div>
@@ -26,6 +26,7 @@ export default function WhatIDO() {
           and router. I have basic Understanding of Java and Python. I am open
           to more opportunities and eager to learn more.</p>
     </div>
+    
   </div>
 
 
