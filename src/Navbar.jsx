@@ -1,5 +1,5 @@
 export default function Navbar() {
-    const button = 'text-white  hover:bg-gray-900 font-medium rounded-lg  px-3 py-2.5 me-2 dark:hover:bg-gray-700 dark:border-gray-700'
+    const button = 'text-white hover:bg-gray-800 font-medium rounded-lg px-3 py-2.5 me-2 dark:hover:bg-gray-600 dark:border-gray-600 transition-colors duration-300 ease-in-out hover:border-blue-500 hover:shadow-md hover:shadow-blue-500'
   return (
     <>
     <nav className="flex py-4 bg-cyan-900 space-x-72">
