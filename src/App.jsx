@@ -9,6 +9,9 @@ function App() {
      <Navbar />
      <WhatIDO />
      <Education />
+
+
+     {/* Checking */}
     </>
    );
 }
