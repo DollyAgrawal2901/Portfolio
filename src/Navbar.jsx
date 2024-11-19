@@ -9,7 +9,7 @@
 //         <ul className="flex float-right">
 //             <li className={button}><button>Home</button></li>
 //             <li className={button}><button>About</button></li>
-//             <li className={button}><button>Skill</button></li>
+//             <li className={button}><button >Skill</button></li>
 //             <li className={button}><button>Education</button></li>
 //             <li className={button}><button>Service</button></li>
 //             <li className={button}><button>Blog</button></li>
@@ -66,13 +66,18 @@ export default function Navbar() {
           <div className={`w-full md:block md:w-auto ${isOpen ? 'block' : 'hidden'}`} id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-slate-950 rounded-lg bg-cyan-800 md:flex-row md:space-x-4 md:mt-0 md:border-0 md:bg-cyan-900">
               <li className="md:inline-flex">
-                <button className={button}>Home</button>
+                <button className={button} onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}
+                >Home</button>
               </li>
               <li className="md:inline-flex">
                 <button className={button}>About</button>
               </li>
               <li className="md:inline-flex">
-                <button className={button}>Skill</button>
+                <button className={button} onClick={() => {
+                  document.getElementById("whatido")?.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}>Skill</button>
               </li>
               <li className="md:inline-flex">
                 <button className={button}>Education</button>

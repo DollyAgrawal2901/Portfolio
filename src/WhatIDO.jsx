@@ -15,14 +15,14 @@ export default function WhatIDO() {
         </div>
       </div> */}
 
-<div className="flex justify-center items-center mt-16 ">
+<div className="flex justify-center items-center h-screen mt-16 " id="whatido">
     <div className="bg-slate-400 text-black text-center p-8 rounded-lg shadow-slate-500 shadow-2xl mb-9 w-8/12">
       <h2 className="text-3xl font-bold mb-2">What I do</h2>
       <div className="flex justify-center">
           <div className="w-32 h-1 bg-slate-600"></div>
         </div>
       <p className="text-lg p-4">At present, I'm pursuing my final year of B-Tech in Silver Oak
-          uNiversity. I am proficient in react components, hooks, props, portals
+          University. I am proficient in react components, hooks, props, portals
           and router. I have basic Understanding of Java and Python. I am open
           to more opportunities and eager to learn more.</p>
           <div className="mt-10">
